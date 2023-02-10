@@ -23,42 +23,10 @@ p {
     text-indent: 50px;
 }
 
-nav#menu{
-    display: block;
-}
-
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
+.botao{
     position: absolute;
-    top: -15px;
-    left: 650px;
-}
-
-nav#menu li{
-    display: inline-block;
-    background-color: #4169E1;
-    padding: 10px;
-    margin: 10px;
-    transition: background-color 1s;
-}
-
-nav#menu li:hover{
-    background-color: #121212;
-}
-
-nav#menu h1{
-    display: none;
-}
-
-nav#menu a{
-    color: aliceblue;
-    text-decoration: none;
-}
-
-nav#menu a:hover{
-    color: #121212;
-    text-decoration: none;
+    top: 740px;
+    left: 1200px;
 }
 
 .wrapper{
