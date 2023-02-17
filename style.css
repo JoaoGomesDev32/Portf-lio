@@ -46,6 +46,25 @@ main{
     padding: 0 20px;
 }
 
+figure.foto-projeto{
+    position: relative;
+  
+}
+
+figure.foto-projeto img{
+    width: 250px;
+    height: 200px;
+}
+
+figure.foto-projeto h5{
+    font-size: 15pt;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+    padding: 0;
+    margin: 0;
+}
+
+
 section.module p{
     margin-bottom: 40px;
     font-size: 18px;
@@ -305,6 +324,8 @@ ul#album-fotos li#fotos10:hover{
     background-position: 0 0;
     background-size: 100px 100px;
 }
+
+
 
 footer#rodape{
     clear: both;
