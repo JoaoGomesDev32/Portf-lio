@@ -1,0 +1,254 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background-color: #836FFF;
+}
+
+header {
+	background-color: #836FFF;
+	color: #fff;
+	padding: 5px;
+	
+}
+
+header h1{
+	text-align: center;
+	text-shadow: #000000;
+}
+
+header a{
+	position: relative;
+	left: 75px;
+	top: -75px;
+}
+
+header img {
+	transition: transform 0.2s ease-in-out;
+}
+
+header img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+
+
+main {
+	background-color: #836FFF;
+	color: #fff;
+}
+
+main h2.ola{
+	color:aqua;
+	text-indent: 5%;
+	margin: 0;
+	padding: 0;
+}
+
+main p{
+	padding: 0px;
+	margin: 20px;
+	text-align: justify;
+	text-indent: 3em;
+}
+
+.skill-icons {
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+  }
+  
+  .skill-icons img {
+	width: 50px;
+	height: 50px;
+	transition: transform 0.2s ease-in-out;
+  }
+  
+  .skill-icons img:hover {
+	transform: scale(2.0);
+	cursor: pointer;
+  }
+
+.btn-download-cv {
+  display:flexbox;
+  padding: 12px 24px;
+  background-color: #00CED1;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+  left: 45%;
+}
+
+.btn-download-cv:hover {
+  background-color: #20B2AA;
+  cursor: pointer;
+}
+
+main p.um{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+main p.dois{
+	color: aqua;
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+#my-projects {
+	background-color: #836FFF;
+	padding: 50px 0;
+  }
+  
+  .project-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  
+  .project {
+	width: 300px;
+	margin: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .project img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+  }
+  
+  .project h3 {
+	margin: 0;
+	font-size: 24px;
+	font-weight: bold;
+  }
+  
+  .project p {
+	margin: 0 20px 20px;
+	padding: 0;
+	font-size: 16px;
+	line-height: 1.5;
+  }
+  
+  .btn-link {
+	position: absolute;
+	bottom: 2px;
+	left: 200px;
+	padding: 10px 20px;
+	background-color: #00CED1;
+	color: #fff;
+	border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-link:hover {
+	transform: scale(1.1);
+  }
+  
+
+
+footer{
+	background-color: #836FFF;
+	color: #fff;
+	padding: 5px;
+	text-indent:2em;
+	margin: 10px;
+	padding: 10px;	
+}
+
+footer p{
+	text-align: center;
+	margin: auto;
+	padding: auto;
+}
+
+footer img{
+	width: 50px;
+	height: 50px;
+	transition: transform 0.2s ease-in-out;
+}
+
+footer img:hover{
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+.btn{
+	position: relative;
+	left: 1150px;
+	top: -30px;
+}
+
+.parallax {
+	background-image: url('img/city-tech.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	position: relative;
+}
+
+.parallax:before {
+	content: "";
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.parallax-text {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	text-align: center;
+}
+
+.parallax-text h2 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.parallax-text p {
+	font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	.parallax {
+		height: 300px;
+	}
+	.parallax-text h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+	}
+	.parallax-text p {
+		font-size: 16px;
+	}
+}

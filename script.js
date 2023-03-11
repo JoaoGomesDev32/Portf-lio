@@ -1,9 +1,19 @@
-
-window.sr = ScrollReveal({ reset: true });
-
-sr.reveal('.area-1', {duration: 2000});
-
-sr.reveal('.area-2', {rotate:{ x:0,y:80,z:0 },duration: 2000});
-
-sr.reveal('.area-3', {rotate:{x:100,y:100,z:0}, duration:2000});
+$(window).scroll(function() {
+    var scrollTop = $(this).scrollTop();
+    $('.parallax').css('background-position-y', -(scrollTop * 0.5) + 'px');
+  });
+  
+  // Adicionar animação aos botões de "Ver Projeto"
+  const buttons = document.querySelectorAll('.btn');
+  
+  buttons.forEach(button => {
+    button.addEventListener('mouseover', () => {
+      button.style.backgroundColor = '#fff';
+      button.style.color = '#333';
+    });
+    button.addEventListener('mouseout', () => {
+      button.style.backgroundColor = '#333';
+      button.style.color = '#fff';
+    });
+  });
 

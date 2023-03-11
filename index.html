@@ -1,80 +1,81 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/scrollreveal"></script> 
-    <link rel="stylesheet" href="style.css"/>
-    <title>Meu Site c/E Paralax</title>
+	<title>JOAOGOMESDEV PORTFÓLIO</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estilo.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <a id="topo"></a>
-
-    <div class="wrapper">
-        <main>
-         
-            <section class="module parallax parallax-1">
-                <h1 class="area-1">JOÃOGOMESDEV</h1>
-                <h2 class="area-1">Student/Developer</h2>
-            </section>
-            
-
-            <section class="module content">
-                <div class="container">
-                    <a name="sobremim"></a>
-                    <h2>Olá,</h2>
-                    <p>sou João Gomes e tenho 32 anos. Sou estudante de análise e desenvolvimento de sistemas, atenho habilidades como desenvolvedor Web Front-End. Apaixonado por programação, sou uma pessoa proativa, criativa e comunicativa, também possuo experiência no ramo comercial e de negócios, trabalho bem em equipe e me adapto facilmente, tenho boa visão estratégica que ira agregar para um bom desenvolvimento de sua empresa.</p>
-
-                    <a href="documentos/cv.pdf" target="_blank" download="curriculoJoao"><button type="button"><img class="botao" src="imagens/cv-download.png"></button></a>
-
-                </div>
-            </section>
-
-            <section class="module parallax parallax-2">
-                <h1 class="area-2">Habilidades</h1>
-            </section>
-            <section class="module content">
-                <div class="container">
-                <h3>Uma mente que se abre a uma nova ideia,  jamais voltará ao seu tamanho original.</h3>
-                <h4>"Albert Einstein"</h4>
-
-                <ul id="album-fotos">
-                    <li id="fotos01"><span>Git</span></li>
-                    <li id="fotos02"><span>GitHub</span></li>
-                    <li id="fotos03"><span>Html5</span></li>
-                    <li id="fotos04"><span>Css</span></li>
-                    <li id="fotos05"><span>JS</span></li>
-                    <li id="fotos06"><span>NodeJS</span></li>
-                    <li id="fotos07"><span>PHP</span></li>
-                    <li id="fotos08"><span>Python</span></li>
-                    <li id="fotos09"><span>Kotlin</span></li>
-                    <li id="fotos10"><span>Java</span></li>
-                </ul>
-            </div>
-            </section>
-            
-            <section class="module parallax parallax-3">
-                <h1 class="area-3">Portifólio</h1>
-            </section>
-            <section class="module content">
-                <div class="container">
-                    <h2>Meus Projetos</h2>
-                    <figure class="foto-projeto">
-                        <a href="https://joaozinhobus.netlify.app/" target="_blank"><img src="imagens/icone-game.png"></a>
-                            <h5>Joãozinho Bus</h5>
-
-                    </figure>
-                </div>
-            </section>
-
-        </main>
-
-    </div>
-    
-    <script src="script.js"></script>
-    <footer id="rodape">
-        <p>Copyright &copy; 2023 - by João Gomes</p>
-            <a href="https://github.com/JoaoGomesDev32" target="_blank"><img class="icone" src="imagens/github.png"></a>  <a href="https://www.linkedin.com/in/joaofelipedev32" target="_blank"><img class="icone" src="imagens/linkedin.png"></a> <a href="https://www.instagram.com/joaofelipegs31" target="_blank"><img class="icone" src="imagens/insta.png"></a>
-    </footer>
+	<header>
+		<h1>Portfólio</h1>
+		<a href="https://github.com/JoaoGomesDev32" target="_blank"><img src="icones/icons8-github-30.png" alt="HTML5"></a>  <a href="https://www.linkedin.com/in/joaofelipedev32" target="_blank"><img src="icones/icons8-linkedin-circundado-30.png" alt="HTML5"></a> <a href="https://www.instagram.com/joaofelipegs31" target="_blank"><img src="icones/icons8-instagram-30.png" alt="HTML5"></a>
+	</header>
+	<main>
+		<section class="parallax">
+			<div class="parallax-text">
+				<h2 class="area-1">JOÃOGOMESDEV</h2>
+				<p>Desenvolvedor Front-End</p>
+			
+			</div>
+		</section>
+		<section>
+			<h2 class="ola">Olá,</h2>
+                    <p>sou João Gomes e tenho 32 anos. Sou estudante de análise e desenvolvimento de sistemas, atenho habilidades como desenvolvedor Web Front-End. Apaixonado por programação, sou uma pessoa proativa, criativa e comunicativa, também possuo experiência no ramo comercial e de negócios, trabalho bem em equipe e me adapto facilmente, tenho boa visão estratégica que ira agregar para um bom desenvolvimento de sua empresa.</p><br>
+					<a href="documentos/cv.pdf" download="JoaoGomes-CV.pdf" class="btn-download-cv">Download CV</a>
+					<h2>Habilidades:</h2><br>
+					<div class="skill-icons">
+						<img src="icones/icons8-html-5-96.png" alt="HTML5">
+						<img src="icones/icons8-css3-100.png" alt="CSS">
+						<img src="icones/icons8-logotipo-javascript-100.png" alt="Javascript">
+						<img src="icones/icons8-nodejs-96.png" alt="NodeJs"> 
+						<img src="icones/icons8-reagir-100.png" alt="React">
+						<img src="icones/icons8-vuejs-96.png" alt="VueJs">
+						<img src="icones/icons8-git-100.png" alt="Git">
+						<img src="icones/icons8-github-squared-96.png" alt="GitHub">
+						<img src="icones/icons8-json-100.png" alt="Json">
+						<img src="icones/icons8-angularjs-100.png" alt="AngularJs">
+						<img src="icones/icons8-logo-mysql-100.png" alt="MySQL">
+						<img src="icones/icons8-python-100.png" alt="Python">
+						<img src="icones/icons8-kotlin-100.png" alt="Kotlin">
+					  </div>
+		</section>
+		<section class="parallax">
+			<div class="parallax-text">
+			<h2>Meus Projetos</h2>
+			<p class="um">Uma mente que se abre a uma nova ideia,  jamais voltará ao seu tamanho original.</p><br><p class="dois">"Albert Einstein"</p>
+			</div>
+		</section>
+		<section id="my-projects">
+			<h2>Meus Projetos</h2>
+			<div class="project-container">
+			  <div class="project">
+				<img src="img/pagini-portfolio.png" alt="Portfólio">
+				<h3>Meu Portfólio</h3>
+				<p>Portfólio detodos meus projetos, utilizei HTML5, CSS, JS e alguns APIs.</p>
+				<a href="https://joaogomesdev.netlify.app/" class="btn-link">Projeto</a>
+			  </div>
+			  <div class="project">
+				<img src="project2.png" alt="Projeto 2">
+				<h3>Projeto 2</h3>
+				<p>Descrição do Projeto 2</p>
+				<a href="#" class="btn">Ver Projeto</a>
+			  </div>
+			  <div class="project">
+				<img src="project3.png" alt="Projeto 3">
+				<h3>Projeto 3</h3>
+				<p>Descrição do Projeto 3</p>
+				<a href="#" class="btn">Ver Projeto</a>
+			  </div>
+			</div>
+		  </section>	  
+	</main>
+	<footer>
+		<h2>Contato:</h2>
+		<a href="https://github.com/JoaoGomesDev32" target="_blank"><img src="icones/icons8-github-94.png" alt="github"></a>  <a href="https://www.linkedin.com/in/joaofelipedev32" target="_blank"><img src="icones/icons8-linkedin-94.png" alt="linkedin"></a> <a href="https://www.instagram.com/joaofelipegs31" target="_blank"><img src="icones/icons8-instagram-94.png" alt="HTML5"></a>
+		<p>Copyright &copy; 2023 - by João Gomes</p>
+	</footer>
 </body>
 </html>
