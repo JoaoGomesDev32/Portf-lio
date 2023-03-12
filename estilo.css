@@ -43,6 +43,7 @@ header img:hover{
 
 
 main {
+	display: flexbox;
 	background-color: #836FFF;
 	color: #fff;
 }
