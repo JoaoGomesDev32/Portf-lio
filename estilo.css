@@ -18,15 +18,19 @@ header {
 header h1{
 	text-align: center;
 	text-shadow: #000000;
+	padding: 0;
+	margin: 0;
+	
 }
 
 header a{
 	position: relative;
-	left: 75px;
-	top: -75px;
+	left: 5px;
+	top: -20px;
 }
 
 header img {
+	display: flexbox;
 	transition: transform 0.2s ease-in-out;
 }
 
