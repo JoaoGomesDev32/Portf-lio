@@ -9,50 +9,6 @@ body {
 	background-color: #836FFF;
 }
 
-.container{
-	max-width: 1200px;
-  	margin: 0 auto;
-  	padding: 0 20px;
-}
-
-/* Estilos para dispositivos pequenos (exemplo: celulares) */
-
-@media (max-width: 767px) {
-	/* Remover margem horizontal da .container */
-	.container {
-	  padding: 0;
-	}
-  
-	/* Mudar a largura dos elementos para 100% */
-	img,
-	video,
-	iframe,
-	table,
-	input,
-	select,
-	textarea {
-	  max-width: 100%;
-	}
-  }
-  
-  /* Estilos para dispositivos médios (exemplo: tablets) */
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-	/* Reduzir margem horizontal da .container */
-	.container {
-	  padding: 0 10px;
-	}
-  }
-  
-  /* Estilos para dispositivos grandes (exemplo: desktops) */
-  
-  @media (min-width: 992px) {
-	/* Manter margem horizontal da .container */
-	.container {
-	  padding: 0 20px;
-	}
-  }
-
 header {
 	background-color: #836FFF;
 	color: #fff;
@@ -281,7 +237,7 @@ section {
 	font-size: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 768px) {
 	.parallax {
 		height: 300px;
 	}
