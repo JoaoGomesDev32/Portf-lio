@@ -204,7 +204,7 @@ section {
 }
 
 .parallax {
-	display: flex;
+	display: flexbox;
 	background-image: url('img/city-tech.jpg');
 	background-attachment: fixed;
 	background-position: center;
