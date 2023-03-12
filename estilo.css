@@ -168,6 +168,7 @@ main p.dois{
 
 
 footer{
+	display: flexbox;
 	background-color: #836FFF;
 	color: #fff;
 	padding: 5px;
