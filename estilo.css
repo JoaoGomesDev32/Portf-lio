@@ -1,5 +1,6 @@
 body {
 	display: flexbox;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
@@ -246,7 +247,7 @@ section {
 	font-size: 24px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 	.parallax {
 		height: 300px;
 	}
