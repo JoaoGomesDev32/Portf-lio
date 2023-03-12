@@ -1,4 +1,3 @@
-
 body {
 	margin: 0;
 	padding: 0;
@@ -205,6 +204,7 @@ section {
 }
 
 .parallax {
+	display: flex;
 	background-image: url('img/city-tech.jpg');
 	background-attachment: fixed;
 	background-position: center;
