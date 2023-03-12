@@ -1,7 +1,7 @@
 /* Estilos base para o site */
 body {
 	display: flexbox;
-	max-width:fit-content;
+	max-width:max-content
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
