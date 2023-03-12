@@ -1,7 +1,7 @@
 /* Estilos base para o site */
 body {
 	display: flexbox;
-	width: 100%;
+	max-width: none;
 	margin: 0;
 	padding: 0;
 	font-family: Arial, sans-serif;
@@ -102,7 +102,7 @@ main p.um{
 	text-align: justify;
 	margin: 0;
 	padding: 0;
-	font-size: 28px;
+	font-size: 24px;
 }
 
 main p.dois{
