@@ -51,6 +51,7 @@ header img:hover{
 
 main {
 	background-color: #836FFF;
+	width: auto;
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px;
