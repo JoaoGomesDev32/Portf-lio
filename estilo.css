@@ -1,16 +1,24 @@
+@charset "UTF-8";
+
 /* Estilos base para o site */
-body {
-	display: flexbox;
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
 	margin: 0;
 	padding: 0;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
-	line-height: 1.5;
-	background-color: #836FFF;
+}
+
+html{
+	height: 100vh;
+}
+
+body {
+	background: #836fff;
+	
 }
 
 header {
-	background-color: #836FFF;
+	background-color: #836fff;
 	color: #fff;
 	padding: 5px;
 	
@@ -42,9 +50,24 @@ header img:hover{
 
 
 main {
-	display: flexbox;
 	background-color: #836FFF;
-	color: #fff;
+	width: 1200px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+	
+}
+
+img{
+	display: flexbox;
+	margin: auto;
+}
+
+h1{
+	text-align: center;
+	color: aliceblue;
+	font-size: 2em;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
 }
 
 main h2.ola{
