@@ -51,7 +51,7 @@ header img:hover{
 
 main {
 	background-color: #836FFF;
-	width: 992px;
+	width: 90vw;
 	margin: auto;
 	margin-top: 20px;
 	padding: 10px;
@@ -262,7 +262,7 @@ section {
 	font-size: 24px;
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media sreen and (min-width: 600px) and (max-width: 768px) {
 	.parallax {
 		height: 300px;
 	}
