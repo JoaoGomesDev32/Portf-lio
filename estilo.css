@@ -261,16 +261,3 @@ section {
 .parallax-text p {
 	font-size: 24px;
 }
-
-@media sreen and (min-width: 600px) and (max-width: 768px) {
-	.parallax {
-		height: 300px;
-	}
-	.parallax-text h2 {
-		font-size: 24px;
-		margin-bottom: 10px;
-	}
-	.parallax-text p {
-		font-size: 16px;
-	}
-}
