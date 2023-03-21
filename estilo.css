@@ -17,16 +17,23 @@ body {
 	
 }
 
+main {
+	background-color: #836FFF;
+	width: 1100px;
+	margin: auto;
+	margin-top: 20px;
+	padding: 10px;
+}
+
 header {
 	background-color: #836fff;
-	color: #fff;
 	padding: 5px;
 	
 }
 
 header h1{
 	text-align: center;
-	text-shadow: #000000;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
 	padding: 0;
 	margin: 0;	
 }
@@ -35,7 +42,7 @@ header h1{
 header a{
 	position: relative;
 	left: 5px;
-	top: -20px;
+	top: -35px;
 }
 
 header img {
@@ -48,41 +55,65 @@ header img:hover{
 	cursor: pointer;
 }
 
-
-main {
-	background-color: #836FFF;
-	width: 1100px;
-	margin: auto;
-	margin-top: 20px;
-	padding: 10px;
-	
-}
-
-img{
-	display: flexbox;
-	margin: auto;
-}
-
 h1{
 	text-align: center;
 	color: aliceblue;
-	font-size: 2em;
+	font-size: 36px;
 	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
 }
 
-main h2.ola{
-	color:aqua;
-	text-indent: 5%;
+h2{
+	color: aliceblue;
+	font-size: 24px;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+	padding: 0;
+	margin: 20px;
+}
+
+h3{
+	font-size: 24px;
+	color: aliceblue;
 	margin: 0;
 	padding: 0;
 }
 
-main p{
+h2.ola{
+	color:aqua;
+	font-size: 36px;
+	text-shadow: #fff;
+	text-indent: 70px;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	color: aliceblue;
+	font-size: 24px;
 	padding: 0px;
 	margin: 20px;
 	text-align: justify;
-	text-indent: 3em;
+	text-indent: 50px;
 }
+
+.btn-download-cv {
+	display:flexbox;
+	padding: 12px 24px;
+	background-color: #00CED1;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	transition: background-color 0.3s ease-in-out;
+	position: relative;
+	left: 45%;
+  }
+  
+  .btn-download-cv:hover {
+	background-color: #20B2AA;
+	cursor: pointer;
+  }
 
 .skill-icons {
 	display: flex;
@@ -101,31 +132,11 @@ main p{
 	cursor: pointer;
   }
 
-.btn-download-cv {
-  display:flexbox;
-  padding: 12px 24px;
-  background-color: #00CED1;
-  color: #fff;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  text-decoration: none;
-  transition: background-color 0.3s ease-in-out;
-  position: relative;
-  left: 45%;
-}
-
-.btn-download-cv:hover {
-  background-color: #20B2AA;
-  cursor: pointer;
-}
-
 main p.um{
 	text-align: justify;
 	margin: 0;
 	padding: 0;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 main p.dois{
@@ -133,22 +144,18 @@ main p.dois{
 	text-align: right;
 	margin: 0;
 	padding: 0;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 #projects {
-	background-color: #836FFF;
+	text-decoration: none;
 	padding: 0;
 	margin: 0;
   }
   
   .container {
-	max-width: 1200px;
+	max-width: 100vw;
 	margin: 0 auto;
-  }
-  
-  h2 {
-	margin-bottom: 50px;
   }
   
   .projects-list {
@@ -175,11 +182,22 @@ main p.dois{
   }
   
   .project h3 {
-	margin-top: 20px;
+	font-size: 24px;
+	color: aquamarine;
+	margin: 0;
+	padding: 0;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+
   }
   
   .project p {
-	margin-top: 10px;
+	margin: auto;
+	padding: 0;
+	font-size: 18px;
+	color: aliceblue;
+	text-indent: 0;
+	text-align: justify;
+
   }
   
 
@@ -187,17 +205,16 @@ main p.dois{
 footer{
 	display: flexbox;
 	background-color: #836FFF;
-	color: #fff;
-	padding: 5px;
-	text-indent:2em;
-	margin: 10px;
-	padding: 10px;	
+	color: aliceblue;
+	margin: 0;
+	padding: 0;	
 }
 
 footer p{
+	font-size: 18px;
 	text-align: center;
-	margin: auto;
-	padding: auto;
+	margin: 10px;
+	padding: 0;
 }
 
 footer img{
@@ -212,7 +229,7 @@ footer img:hover{
 }
 
 section {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .btn{
@@ -263,12 +280,5 @@ section {
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
-	html{
-		width: 100vw;
-		height: 100vh;
-	}
-	
-	main{
-		width: 992px;
-	}
+
 }
