@@ -1,6 +1,6 @@
 # Portfólio
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1c35547a-f0a8-40ec-b439-ae5f327f0a2f/deploy-status)](https://app.netlify.com/sites/joaogomesdev/deploys)
-![img](https://vivaquebec.com/wp-content/uploads/2016/10/trabalho-ti-canada-1-770x300.jpg)
+![img](./img/responsividade.png)
 ## **💻 Sobre**
 
 Meu portfólio pessoal, onde exibo informações sobre mim e todos os meus projetos desenvolvidos.
